@@ -1,0 +1,38 @@
+/*We could reset everything, but I am sure if we can learn to utilize the default stylings of the browsers, we will be much better off*/
+
+/*
+Header
+*/
+
+header {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -10px;
+}
+
+
+h1 {
+    float: left;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 0.5em;
+    
+}
+
+/*
+teaser
+*/
+.teaser {
+    display: flex;
+    padding: 0 20px 0 20px;
+    flex-direction: column;
+    align-items: center;
+    ;
+}
